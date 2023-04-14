@@ -269,6 +269,16 @@ strong em {
     color: #AA0065;
 }
 
+.vermelho{
+    color: #9C1208;
+}
+.verde{
+    color:#057239;
+}
+.azul{
+    color: #324668;
+}
+
 .ico {
     vertical-align: middle;
 }
@@ -1203,6 +1213,21 @@ div.boxImagemRecado p.imagemRecado {
 
 .textoDestaqueContorno .textoDestaquePalavra{
     background: #fff;
+}
+
+
+figure  .textoDestaquePalavra{
+    border: 2px solid #000;
+    border-radius: 0.5em 0.5em 0.5em 0;
+    font-family: 'Ubuntu';
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 0.1em 0.5em 0 0.5em;
+    width: max-content;
+    max-width: 100%;
+}
+figure  .textoDestaquePalavra+img{
+    border-left: 2px dotted #000;
 }
 
 .boxTextoDestaque {
@@ -2945,10 +2970,30 @@ blockquote.li_citacaoItemMP::before {
 /* BOX FUNDO COR */
 
 .fundoCorRosa {
-    background: #fdeded;
+    background: #FDEDED;
     border-radius: 0 1em 1em 1em;
     padding: 0.5em 1em;
     width: max-content;
+}
+
+.fundoCorLaranja {
+    background: #FEE0BC;
+    border-radius: 0 1em 1em 1em;
+    padding: 0.5em 1em;
+    width: max-content;
+}
+
+
+
+.objetoEnriqueci {
+    background:#097F3E;
+    color: #fff;
+    font-weight: bold;
+    width: max-content;
+    padding: 0 0.5em 0 0 ;
+}
+.objetoEnriqueci img {
+    background: #fff;
 }
 
 
