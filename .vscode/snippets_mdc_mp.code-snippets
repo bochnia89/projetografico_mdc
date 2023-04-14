@@ -1,0 +1,222 @@
+{
+	// Place your manual_g24 workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+
+	"MPU Objetivos da unidade": {
+		"prefix": "titObjetivosdaUniMPU",
+		"body": [
+			"<p class=\"peso3MP\">Objetivos da unidade</p>"
+		],
+		"description": "Modelo de MPU Objetivos da unidade"
+	},
+
+	"MPU Objetivos do capítulo": {
+		"prefix": "titObjetivosdaCapMPU",
+		"body": [
+			"<p class=\"peso3MP\">Objetivos do capítulo</p>"
+		],
+		"description": "Modelo de MPU Objetivos do capítulo"
+	},
+
+	"MPU Objetivo": {
+		"prefix": "titObjetivoMPU",
+		"body": [
+			"<p class=\"peso3MP\">Objetivo</p>"
+		],
+		"description": "Modelo de "
+	},
+
+	"MPU Objetivos": {
+		"prefix": "titObjetivosMPU",
+		"body": [
+			"<p class=\"peso3MP\">Objetivos</p>"
+		],
+		"description": "Modelo de MPU Objetivos"
+	},
+
+	"MPU Justificativa": {
+		"prefix": "titJustificativaMPU",
+		"body": [
+			"<p class=\"peso3MP\">Justificativa</p>"
+		],
+		"description": "Modelo de MPU Justificativa"
+	},
+
+	"MPU Justificativas": {
+		"prefix": "titJustificativasMPU",
+		"body": [
+			"<p class=\"peso3MP\">Justificativas</p>"
+		],
+		"description": "Modelo de MPU Justificativas"
+	},
+
+	"MPU Resposta": {
+		"prefix": "titRespostaMPU",
+		"body": [
+			"<p class=\"respPeso3MP\">Resposta</p>",
+		],
+		"description": "Modelo de MPU Resposta"
+	},
+
+	"MPU Respostas": {
+		"prefix": "titRespostasMPU",
+		"body": [
+			"<p class=\"respPeso3MP\">Respostas</p>"
+		],
+		"description": "Modelo de "
+	},
+
+	"MPU Metodologias ativas": {
+		"prefix": "titMetodologiasAtivMPU",
+		"body": [
+			"<p class=\"metodologiaPeso3MP\">Metodologias ativas</p>"
+		],
+		"description": "Modelo de MPU Metodologias ativas"
+	},
+
+	"MPU Sugestão de avaliação": {
+		"prefix": "titSugestaoAvaMPU",
+		"body": [
+			"<p class=\"sugestPeso3MP\">Sugestão de avaliação</p>"
+		],
+		"description": "Modelo de MPU Sugestão de avaliação"
+	},
+
+	"MPU Sugestões de avaliação": {
+		"prefix": "titSugestoesAvaMPU",
+		"body": [
+			"<p class=\"sugestPeso3MP\">Sugestões de avaliação</p>"
+		],
+		"description": "Modelo de MPU Sugestão de avaliação"
+	},
+
+
+	"MPU Algo Mais": {
+		"prefix": "titAlgoMaisMPU",
+		"body": [
+			"<p class=\"algoMaisPeso3MP\">Algo a mais</p>"
+		],
+		"description": "Modelo de MPU Algo Mais"
+	},
+
+	"MPU Um texto a mais": {
+		"prefix": "titTextoaMaisMPU",
+		"body": [
+			"<p class=\"umTextoPeso3MP\">Um texto a mais</p>"
+		],
+		"description": "Modelo de MPU  Um texto a mais"
+	},
+
+	"MPU Atividade a mais": {
+		"prefix": "titAtiviaMaisMPU",
+		"body": [
+			"<p class=\"atividadePeso3MP\">Atividade a mais</p>"
+		],
+		"description": "Modelo de MPU  Atividade a mais"
+	},
+
+	"MPU Titulo vinheta": {
+		"prefix": "titVinhetaMPU",
+		"body": [
+			"<p class=\"titVinhetaMP\">$1</p>"
+		],
+		"description": "Modelo deMPU Titulo vinheta"
+	},
+
+	"MPU Fim de seção": {
+		"prefix": "fimSecaoMPU",
+		"body": [
+			"<hr class=z=\"fimSecaoMp\" />"
+		],
+		"description": "Modelo de MPU Fim de seção"
+	},
+
+	"MPU Modelo de Tabela": {
+		"prefix": "modeloTabelaMPU",
+		"body": [
+			"<table class=\"tb_azul tabela\">",
+            "<!--Será utilizado classes para diferenciar QUADRO de TABELA + classe refente a sua paleta de cor-->",
+            "<caption>$1</caption>",
+            "<!-- Cabeçalho da tabela-->",
+            "<thead>",
+              "<tr>",
+                "<th class=\"ti_table\" colspan=\"2\">$2</th>",
+              "</tr>",
+              "<tr>",
+                "<th>$3</th>",
+                "<th>$4</th>",
+              "</tr>",
+            "</thead>",
+            "<!--Cabeçalho da tabela-->",
+            "<!-- Corpo da tabela-->",
+            "<tbody>",
+             "<!--Linha da tabela-->",
+             	"<tr>",
+                "<!-- Celular da Tabela -->",
+                "<td>$5</td>",
+                "<td>$6</td>",
+              "</tr>",
+              "<!--Linha da tabela-->",
+              "<tr>",
+                "<td>$7</td>",
+                "<td>$8</td>",
+              "</tr>",
+              "<!-- Corpo da tabela-->",
+            "</tbody>",
+          "</table>"
+		],
+		"description": "Modelo de MPU Modelo de Tabela"
+	},
+
+	"MPU Modelo de Quadro": {
+		"prefix": "modeloQuadroMPU",
+		"body": [
+			"<table class=\"tb_azul quadro\">",
+            "<!--Será utilizado classes para diferenciar QUADRO de TABELA + classe refente a sua paleta de cor-->",
+            "<caption>$1</caption>",
+            "<!-- Cabeçalho da tabela-->",
+            "<thead>",
+              "<tr class=\"tb_modelo\">",
+                "<th class=\"ti_table\" colspan=\"2\">$2</th>",
+              "</tr>",
+              "<tr>",
+                "<th>$3</th>",
+                "<th>$4</th>",
+              "</tr>",
+            "</thead>",
+            "<!--Cabeçalho da tabela-->",
+            "<!-- Corpo da tabela-->",
+            "<tbody>",
+             "<!--Linha da tabela-->",
+             	"<tr>",
+                "<!-- Celular da Tabela -->",
+                "<td>$5</td>",
+                "<td>$6</td>",
+              "</tr>",
+              "<!--Linha da tabela-->",
+              "<tr>",
+                "<td>$7</td>",
+                "<td class=\"hachura\">$8</td>",
+              "</tr>",
+              "<!-- Corpo da tabela-->",
+            "</tbody>",
+          "</table>"
+		],
+		"description": "Modelo de MPU Modelo de Quadro"
+	},
+}
