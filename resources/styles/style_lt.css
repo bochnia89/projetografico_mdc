@@ -286,6 +286,9 @@ strong em {
 .borda {
     border: 1px solid #000;
 }
+.bg_branco{
+    background: #fff;
+}
 
 
 .texto {
@@ -723,6 +726,306 @@ aside caption {
 /*👉CONHEÇA SEU LIVRO👈*/
 
 /*👉MANUAL GERAL👈*/
+.box_geral_mp {
+    background: linear-gradient(to bottom right, #D9ECF1 15%, #FBE7D9 50%, #ECF3DE 90%);
+    min-height: 300px;
+    padding: 1.5em;
+
+}
+
+.box_geral_mpB {
+    background: #fff;
+    padding: 1.5em;
+
+}
+
+
+.geralTextoMP {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 0.5em 0;
+    hyphens: none;
+}
+
+.textoEspecialMP {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+    margin: 0.5em 0;
+    hyphens: none;
+}
+
+.bold_MP {}
+
+ul.li_sumarioMP {
+    margin: 1em 0;
+}
+
+ul.li_sumarioMP ul {
+    margin: 0 0 0.7em 1em;
+}
+
+.sumPeso1MP {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0.4em 0;
+}
+
+.sumPeso2MP {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.sumPeso3MP {
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.sumUni {
+    background: #000;
+    border-radius: 0.5em 0.5em 0.5em 0;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+}
+
+.sumUnidadesLE li {
+    margin: 0.5em 0;
+}
+
+.sumPeso1MP a,
+.sumPeso2MP a,
+.sumPeso3MP a {
+    color: #000;
+}
+
+.geralPeso1MPb {
+    background: #000;
+    border-radius: 1em 1em 0 1em;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-size: 1.4em;
+    width: max-content;
+    max-width: 100%;
+    padding: 0.2em 0.5em;
+    margin: 2em 0 1em 0;
+}
+
+.geralPeso1MP {
+    background: #000;
+    border-radius: 1em 1em 0 1em;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-size: 1.4em;
+    width: max-content;
+    max-width: 100%;
+    padding: 0.2em 0.5em;
+    margin: 1em 0;
+}
+
+.geralPeso1MP::before,
+.geralPeso1MPb::before {
+    background: url(../images/pv_titpeso1_mp.svg)top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 194px;
+    height: 50px;
+    position: absolute;
+    margin: -42px 0 0 -25px;
+}
+
+.geralPeso2MP {
+    color: #000;
+    font-family: 'Ubuntu';
+    font-size: 1.3em;
+    width: max-content;
+    font-weight: bold;
+    max-width: 100%;
+    margin: 1em 0 0.5em 1.2em;
+}
+
+.geralPeso2MP::before {
+    background: url(../images/pv_titpeso2_mp.svg)top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 21px;
+    height: 19px;
+    position: absolute;
+    margin: 0 0 0 -24px;
+}
+
+
+.geralPeso3MP {
+    background: #000;
+    border-radius: 1em 1em 1em 0;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-size: 1.1em;
+    width: max-content;
+    max-width: 100%;
+    padding: 0.1em 0.5em;
+    margin: 1em 0 0.5em 0;
+}
+
+.geralPeso3MPb {
+    color: #000;
+    font-family: 'Ubuntu';
+    font-size: 1.1em;
+    font-weight: 500;
+    width: max-content;
+    max-width: 100%;
+    margin: 1em 0 0.5em 0;
+}
+
+.titComentarios {
+    margin: 1em 0 0.5em 1.5em;
+    font-family: 'Ubuntu';
+}
+
+.titComentarios::before {
+    background: url(../images/pv_titcomentarios_mp.svg)top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    margin: -2px 0 0 -37px;
+}
+
+.titIcone {
+    margin: 1em 0 0.5em 1.6em;
+    font-family: 'Ubuntu';
+}
+
+.titIcone .ico {
+    position: absolute;
+    margin: -8px 0 0 -45px;
+}
+
+.titProjeEmacao {
+    background: #000;
+    border-radius: 1em 0 1em 1em;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-size: 1.1em;
+    width: max-content;
+    max-width: 100%;
+    padding: 0.1em 0.5em;
+    margin: 1.8em 0 0.5em 1.3em;
+}
+
+.titProjeEmacao::before {
+    background: url(../images/pv_projetoemacao_mp.svg)top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 60px;
+    height: 45px;
+    position: absolute;
+    margin: -28px 0 0 -32px;
+}
+
+.titRespostaMP,
+.titReferenciasMP {
+    margin: 1em 0 0.5em 2em;
+    font-family: 'Ubuntu';
+}
+
+.titRespostaMP::before {
+    background: url(../images/pv_titresposta_mp.svg)top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 33px;
+    height: 45px;
+    position: absolute;
+    margin: 0px 0 0 -42px;
+}
+
+.titReferenciasMP {
+    margin: 1em 0 0.5em 2em;
+    border-radius: 0 1em 1em 1em;
+    font-family: 'Ubuntu';
+}
+
+.titReferenciasMP::before {
+    background: url(../images/pv_titreferencias_mp.svg)top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 33px;
+    height: 45px;
+    position: absolute;
+    margin: 0px 0 0 -42px;
+}
+
+
+.box_geral_mp .metodologiaPeso3MP {
+    background: #8DC798;
+    border-radius: 1em 1em 1em 0em;
+    color: #000;
+    font-family: 'Ubuntu';
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    width: max-content;
+    max-width: 100%;
+    margin: 1em 0 0.5em 0;
+}
+
+.box_geral_mp .sugestPeso3MP {
+    background: #F1A680;
+    border-radius: 1em 1em 1em 0em;
+    color: #000;
+    font-family: 'Ubuntu';
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    width: max-content;
+    max-width: 100%;
+    margin: 1em 0 0.5em 0;
+}
+
+.box_geral_mp .algoMaisPeso3MP {
+    background: #F6C068;
+    border-radius: 1em 1em 1em 0em;
+    color: #000;
+    font-family: 'Ubuntu';
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    width: max-content;
+    max-width: 100%;
+    margin: 1em 0 0.5em 0;
+}
+
+.box_geral_mp .umTextoPeso3MP {
+    background: #C39EC5;
+    border-radius: 1em 1em 1em 0em;
+    color: #000;
+    font-family: 'Ubuntu';
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    width: max-content;
+    max-width: 100%;
+    margin: 1em 0 0.5em 0;
+}
+
+.box_geral_mp .atividadePeso3MP {
+    background: #68C1C6;
+    border-radius: 1em 1em 1em 0em;
+    color: #000;
+    font-family: 'Ubuntu';
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0.2em 0.5em;
+    width: max-content;
+    max-width: 100%;
+    margin: 1em 0 0.5em 0;
+}
+
 
 
 /*👉ESTRUTURA PAGE LE 👈*/
@@ -2996,6 +3299,77 @@ blockquote.li_citacaoItemMP::before {
     background: #fff;
 }
 
+/* LINHA DO TEMPO */
+.ti_linhaTempoAzul {
+    border-radius: 0.5em ;
+    background: #86BFE9;
+    font-family: 'Ubuntu';
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0.2em 0.6em;
+    margin: 1em 0 0 0;
+    width: max-content;
+    max-width: 100%;
+}
+.boxLinhaTempoAzul {
+    border: 1px solid #86BFE9;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 0.1em 0 1em 0;
+}
+.ti_linhaTempoAmarela {
+    border-radius: 0.5em ;
+    background: #FFCF47;
+    font-family: 'Ubuntu';
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0.2em 0.6em;
+    margin: 1em 0 0 0;
+    width: max-content;
+    max-width: 100%;
+}
+.boxLinhaTempoAmarela {
+    border: 1px solid #FFCF47;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 0 0 1em 0;
+}
+.ti_linhaTempoRosa {
+    border-radius: 0.5em ;
+    background: #F0858F;
+    font-family: 'Ubuntu';
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0.2em 0.6em;
+    margin: 1em 0 0 0;
+    width: max-content;
+    max-width: 100%;
+}
+.boxLinhaTempoRosa {
+    border: 1px solid #F0858F;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 0 0 1em 0;
+}
+.ti_linhaTempoVerde {
+    border-radius: 0.5em ;
+    background: #8CC9A4;
+    font-family: 'Ubuntu';
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0.2em 0.6em;
+    margin: 1em 0 0 0;
+    width: max-content;
+    max-width: 100%;
+}
+.boxLinhaTempoVerde {
+    border: 1px solid #8CC9A4;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 0 0 1em 0;
+}
+
+
 
 /*MEDIA QUERY*/
 /*👉Versão Mobile Cel👈*/
@@ -3104,6 +3478,7 @@ blockquote.li_citacaoItemMP::before {
         flex-wrap: wrap;
     }
 
+    
 
     /*👉CONHEÇA SEU LIVRO👈*/
 
