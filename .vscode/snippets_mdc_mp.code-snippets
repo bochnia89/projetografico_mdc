@@ -141,7 +141,7 @@
 	"MPU Fim de seção": {
 		"prefix": "fimSecaoMPU",
 		"body": [
-			"<hr class=z=\"fimSecaoMp\" />"
+			"<hr class=\"fimSecaoMp\" />"
 		],
 		"description": "Modelo de MPU Fim de seção"
 	},
