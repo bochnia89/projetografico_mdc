@@ -2353,6 +2353,10 @@ p.questaoLetraItem::before {
     hyphens: none;
 }
 
+.alinhaAtv{
+    margin-left: 28px !important;
+}
+
 .numAtv {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
