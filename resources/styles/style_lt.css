@@ -2515,13 +2515,13 @@ ul.atvLetraItem {
     text-align: center;
 }
 
-.citacao {
+.citacao, .citacaoAtv {
     font-size: 1em;
     text-align: justify;
     margin: 1em 0;
     font-family: 'Merriweather';
 }
-.citacao2 {
+.citacao2, .citacaoAtv2 {
     font-size: 1em;
     text-align: justify;
     margin: 1em 0;
@@ -2995,6 +2995,8 @@ ul.li_itemMP {
 
 p.li_itemMP {
     margin: 0.6em 0 1em 0.6em;
+    text-align: justify;
+    hyphens: none;
 }
 
 p.li_itemMP::before {
