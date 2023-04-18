@@ -1975,7 +1975,8 @@ div.balaoPonteira::after {
     padding: 1em;
 }
 
-.boxVamosPraticar .textoEtapa .marcador {
+.boxVamosPraticar .textoEtapa .marcador,
+.secHoraInvestigar .textoEtapa .marcador {
     background: #9ccd9a;
     border-radius: 6px 6px 0 6px;
     color: #000;
@@ -2993,7 +2994,7 @@ ul.li_itemMP {
 }
 
 p.li_itemMP {
-    margin: 0.8em 0 1em 0.8em;
+    margin: 0.6em 0 1em 0.6em;
 }
 
 p.li_itemMP::before {
