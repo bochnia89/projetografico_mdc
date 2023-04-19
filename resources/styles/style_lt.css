@@ -289,7 +289,9 @@ strong em {
 .bg_branco{
     background: #fff;
 }
-
+.imagemAcabamento{
+    border-radius: 0.5em;
+}
 
 .texto {
     text-align: justify;
