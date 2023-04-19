@@ -1782,7 +1782,9 @@ div.balaoPonteira::after {
     border-left: 1px solid #000;
     border-radius: 1em 0em 0 0;
     padding: 0.4em 0.5em 0 0.5em;
-    
+    font-family: 'Ubuntu';
+    font-size: 1.1em;
+    font-weight: 500;
     max-width: 100%;
     display: table-caption;
     caption-side: top;
