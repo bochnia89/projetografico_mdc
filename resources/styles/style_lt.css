@@ -2997,7 +2997,7 @@ ul.li_itemMP {
 }
 
 p.li_itemMP {
-    margin: 0.6em 0 0.6em 0.6em;
+    margin: 0.6em 0 0.6em 1em;
     text-align: justify;
     hyphens: none;
 }
@@ -3037,14 +3037,19 @@ p.subItemMP::before {
 }
 
 .itemLetraMP,
-.textoGeralMP,
-.itemContinuaMP,
-.itemContinuaMP {
+.textoGeralMP {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     text-align: justify;
     line-height: 1.5em;
     margin: 1em 0;
+}
+.itemContinuaMP {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5em;
+    margin: 1em 0 1em 1em;
 }
 
 .textoGeralMP .bold_MP {
