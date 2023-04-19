@@ -2490,6 +2490,11 @@ ul.atvLetraItem {
 
     padding: 1em 3em;
 }
+.boxCitacao3LE{
+    font-family: 'Merriweather', serif;
+
+    padding: 1em 1em 1em 3em;
+}
 
 .boxCitacaoLE {
     margin: 1em 0;
