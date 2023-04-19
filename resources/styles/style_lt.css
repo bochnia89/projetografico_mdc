@@ -2997,8 +2997,9 @@ aside {
 
 .titVinhetaMP {
     font-family: 'Ubuntu';
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
+    margin:0 0 0 1em ;
 }
 
 ul.li_itemMP {
