@@ -1154,6 +1154,8 @@ ul.li_sumarioMP ul {
 .boxVamoEstudar {
     margin: 1em 0;
 }
+
+.boxVamosEstudar .secAbert,
 .boxVamoEstudar .secAbert{
     background: #000;
     border-radius: 1em  1em  1em 0;
@@ -1167,7 +1169,7 @@ ul.li_sumarioMP ul {
 .boxVamoEstudar .box {
     background: #d8e8c5;
     border-radius: 1em  1em  1em 0;
-    padding: 1em;
+    padding:0.5em 1em;
 }
 
 
@@ -1825,7 +1827,6 @@ div.balaoPonteira::after {
 }
 
 
-.boxVamosEstudar .secAbert,
 .boxOqueEstudei .secAbert {
     background: #000;
     border-radius: 0.5em 0.5em 0.5em 0;
