@@ -3415,7 +3415,7 @@ blockquote.li_citacaoItemMP::before {
     background: #DCDDDF;
     padding: 1em;
     margin: 1em;
-    font-family: 'Merriweather', serif;
+   
 }
 .citTit1Jor {
     font-family: 'Merriweather', serif;
@@ -3429,17 +3429,20 @@ blockquote.li_citacaoItemMP::before {
     font-size: 1.1em;
     text-align: center;
     margin: 0.5em 0;
+    font-family: 'Merriweather', serif;
 }
 .citOlhoJor {
     font-style: italic;
     text-align: center;
     margin: 0.5em 0;
+    font-family: 'Merriweather', serif;
 }
 .citacaoJor {
     text-align: justify;
     hyphens: none;
     text-indent: 1.5em;
     margin: 0.5em 0;
+    font-family: 'Merriweather', serif;
 }
 
 
