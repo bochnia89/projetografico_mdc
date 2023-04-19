@@ -3410,6 +3410,38 @@ blockquote.li_citacaoItemMP::before {
 }
 
 
+/*👉PAPELARIA👈*/
+.boxJornal {
+    background: #DCDDDF;
+    padding: 1em;
+    margin: 1em;
+    font-family: 'Merriweather', serif;
+}
+.citTit1Jor {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0.5em 0;
+}
+.citTit2Jor {
+    font-weight: 500;
+    font-size: 1.1em;
+    text-align: center;
+    margin: 0.5em 0;
+}
+.citOlhoJor {
+    font-style: italic;
+    text-align: center;
+    margin: 0.5em 0;
+}
+.citacaoJor {
+    text-align: justify;
+    hyphens: none;
+    text-indent: 1.5em;
+    margin: 0.5em 0;
+}
+
 
 /*MEDIA QUERY*/
 /*👉Versão Mobile Cel👈*/
