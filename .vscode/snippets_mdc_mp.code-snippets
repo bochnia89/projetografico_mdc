@@ -280,5 +280,14 @@
 		"description": "Modelo de fundo cor rosa"
 	},
 
+	"Linha separador laranja": {
+		"prefix": "linhaSeparadorLaranjaLE",
+		"body": [
+			"<hr class=\"linhaLaranja\" />"
+		],
+		"description": "Modelo de fundo cor rosa"
+	},
+
+
 
 }

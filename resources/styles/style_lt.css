@@ -1617,6 +1617,13 @@ ul.boxPalavra li:first-child::before {
     font-size: 1.05em;
 }
 
+.citTit1 .vocabulario {
+    border-bottom: 1px solid #FF6A3E;
+    font-family: 'Merriweather', serif;
+font-size: 1.3em;
+font-weight: bolder;
+text-align: center;
+}
 .vocabulario {
     border-bottom: 1px solid #FF6A3E;
 }
