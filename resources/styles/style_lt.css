@@ -1514,6 +1514,18 @@ div.boxImagemRecado p.imagemRecado {
     max-width: 100%;
     margin: 1em 0 0em 40px;
 }
+.textoDestaquePalavraJor {
+    border: 2px solid #000;
+    border-radius: 0.5em 0.5em 0.5em 0;
+    font-family: 'Ubuntu';
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 0.1em 0.5em 0 0.5em;
+    width: max-content;
+    max-width: 100%;
+    margin: 0em 0 -0.9em 1em;
+}
+
 
 .textoDestaqueContorno .marcador {
     margin: -2px 0 0 -50px;
@@ -1543,6 +1555,8 @@ figure  .textoDestaquePalavra+img{
     padding: 1em;
     margin: 0 0 1em 37px;
 }
+
+
 
 .boxFundoDestaque {
     background: #fdeded;

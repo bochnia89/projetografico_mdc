@@ -288,6 +288,21 @@
 		"description": "Modelo de fundo cor rosa"
 	},
 
+	"Jornal com destaque palavra Jor": {
+		"prefix": "jornalDestPalJorLE",
+		"body": [
+			"<p class=\"textoDestaquePalavraJor\">Manchete A</p>",
+	
+        "<div class=\"boxJornal\">",
+          "<blockquote class=\"citTit1Jor\">Titulo 1 do jornal</blockquote>",
+          "<blockquote class=\"citTit2Jor\">Titulo 2 do jornal</blockquote>",
+          "<blockquote class=\"citOlhoJor\">Aqui é o texto olho do jornal</blockquote>",
+          "<blockquote class=\"citacaoJor\">Texto citado</blockquote>",
+        "</div>"
+		],
+		"description": "Modelo de jornal com destaque palavra jor"
+	},
+
 
 
 }
