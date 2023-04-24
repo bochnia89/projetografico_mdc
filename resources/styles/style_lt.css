@@ -2542,7 +2542,7 @@ ul.atvLetraItem {
     text-align: justify;
 }
 
-.citOlho {
+.citOlho, .citOlho .vocabulario {
     font-style: italic;
     font-size: 1.1em;
     text-align: center;
