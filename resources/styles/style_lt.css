@@ -1551,7 +1551,15 @@ figure  .textoDestaquePalavra+img{
     margin: 1em 0 1em 35px;
 }
 
-.boxFundoDestaque .marcador {
+.boxFundoDestaqueAmarelo {
+    background: #FFFAD8;
+    border-radius: 0 1em 1em 1em;
+    padding: 0.5em 1em;
+    margin: 1em 0 1em 35px;
+}
+
+.boxFundoDestaque .marcador, 
+.boxFundoDestaqueAmarelo .marcador {
     margin: -9px 0 0 -50px;
 }
 
@@ -2361,6 +2369,9 @@ p.questaoLetraItem::before {
 
 .alinhaAtv{
     margin-left: 28px !important;
+}
+.alinhaAte{
+    margin-left: 50px !important;
 }
 
 .numAtv {
@@ -3326,6 +3337,18 @@ blockquote.li_citacaoItemMP::before {
     width: max-content;
 }
 
+.fundoCorAmarelo {
+    background: #FFFAD8;
+    border-radius: 0 1em 1em 1em;
+    padding: 0.5em 1em;
+    width: max-content;
+}
+
+
+.linhaLaranja {
+border-bottom: 2px solid #FFA44D;
+margin: 1em 0;
+}
 
 
 .objetoEnriqueci {

@@ -254,5 +254,31 @@
 		"description": "Modelo de ícone instrumentos"
 	},
 
+	"Fundo cor amarelo": {
+		"prefix": "fundoCorAmareloLE",
+		"body": [
+			"<div class=\"fundoCorAmarelo\"></div>"
+		],
+		"description": "Modelo de fundo cor amarelo"
+	},
+
+	
+	"Fundo cor laranja": {
+		"prefix": "fundoCorLaranjaLE",
+		"body": [
+			"<div class=\"fundoCorLaranja\"></div>"
+		],
+		"description": "Modelo de fundo cor laranja"
+	},
+
+	
+	"Fundo cor rosa": {
+		"prefix": "fundoCorRosaLE",
+		"body": [
+			"<div class=\"fundoCorRosa\"></div>"
+		],
+		"description": "Modelo de fundo cor rosa"
+	},
+
 
 }
