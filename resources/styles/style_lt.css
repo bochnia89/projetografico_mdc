@@ -3447,27 +3447,27 @@ margin: 1em 0;
     margin: 1em;
    
 }
-.citTit1Jor {
+.citTit1Jor, .citTit1Jor .vocabulario {
     font-family: 'Merriweather', serif;
     font-weight: bold;
     font-size: 1.2em;
     text-align: center;
     margin: 0.5em 0;
 }
-.citTit2Jor {
+.citTit2Jor, .citTit2Jor .vocabulario{
     font-weight: 500;
     font-size: 1.1em;
     text-align: center;
     margin: 0.5em 0;
     font-family: 'Merriweather', serif;
 }
-.citOlhoJor {
+.citOlhoJor,  .citOlhoJor .vocabulario{
     font-style: italic;
     text-align: center;
     margin: 0.5em 0;
     font-family: 'Merriweather', serif;
 }
-.citacaoJor {
+.citacaoJor, .citacaoJor .vocabulario{
     text-align: justify;
     hyphens: none;
     text-indent: 1.5em;
