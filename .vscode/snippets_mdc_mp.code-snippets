@@ -304,5 +304,15 @@
 	},
 
 
+	
+	"Objeto digital": {
+		"prefix": "objetoDigitalLE",
+		"body": [
+			" <a href=\"\"><p class=\"objetoEnriqueci\"><img class=\"ico\" src=\"../resources/images/ico_objeto_digital.svg\" alt=\"texto alternativo\" width=\"24\" height=\"24\" /> Objeto digital</p></a>"
+		],
+		"description": "Modelo de objeto digital"
+	},
+
+
 
 }
