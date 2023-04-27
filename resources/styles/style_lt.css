@@ -724,8 +724,274 @@ aside caption {
 
 
 /*👉SUMÁRIO LE👈*/
+/* Sumário PI */
+.sumarioLE li a{
+    color: #000;
+}
+.sumUnidade{
+    margin-top: 1em;
+}
+.sumUnidade {   
+    color: #000;
+   
+}
+.sumUnidade .secunidade {
+    background: #000;
+    border-radius: 0.5em 0.5em 0.5em 0;
+    color: #fff;
+    font-family: 'Ubuntu';
+ 
+    font-weight: bold;
+    padding: 0.2em 0.4em ;
+}
+.sumUnidade .txunidade{
+    font-family: 'Ubuntu';
+    font-size: 1.1em; 
+    font-weight: bold;
+}
+
+.sumCapitulo{
+    font-family: 'Ubuntu';
+    font-size: 1em; 
+    font-weight: bold;
+
+}
+.sumNivel1{}
+.sumNivel2 {
+    margin-left:1em;
+}
+.sumNivel3 {
+    margin-left:2em;
+    
+}
+.sumNivel4 {
+    margin-left:2.5em;
+    
+}
+.sumInstruItem{
+    margin-left:1em;
+}
+
+
+.sumAtiv, .sumInstru, .sumCapitulo {
+    margin-top: 0.6em;
+}
+.sumpagatv, .sumOqueestudei, .sumInstru,
+.sumCapitulo{
+    margin-left: 14px;
+   
+}
+.sumpagatv, .sumOqueestudei, .sumInstru>a{
+    font-weight: bold;
+}
+
+.sumCapitulo::before {
+    background: #000000;
+    border-radius: 0.2em  0.2em 0 0.2em ;
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 6px 0 0 -14px;
+} 
+.sumpagatv::before {
+    background: #A863A5;
+    border-radius: 0.2em  0.2em 0 0.2em ;
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 6px 0 0 -14px;
+}
+
+.sumOqueestudei::before {
+    background: #5388C6;
+    border-radius: 0.2em  0.2em 0 0.2em ;
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 6px 0 0 -14px;
+} 
+.sumInstru::before {
+    background: #48B166;
+    border-radius: 0.2em  0.2em 0 0.2em ;
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 6px 0 0 -14px;
+} 
+.sumInstruItem::before {
+    color: #48B166;
+    border-radius: 0.2em  0.2em 0 0.2em ;
+    content: '•';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 0 0 0 -10px;
+} 
+
+.sumOqueeuaprendi,
+.sumProjetoAcao,
+.sumSugestoesCompl, 
+.sumGlossario,
+.sumReferencias, 
+.sumSiglas
+{
+    background: #000;
+    border-radius: 0.5em  0.5em  0.5em 0;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    color: #fff;
+    padding: 0.2em 0.5em;
+}
+.sumOqueeuaprendi::before{
+    background: url(../images/pv_sumoqueeuaprendi.svg) top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 22px;
+    height: 24px;
+    position: absolute;
+    margin: 2px 0 0 -30px;
+}
+.sumProjetoAcao::before{
+    background: url(../images/pv_sumprojetoacao.svg) top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 22px;
+    height: 24px;
+    position: absolute;
+    margin: 2px 0 0 -30px;
+}
+.sumSugestoesCompl::before{
+    background: url(../images/pv_sumsugestoes.svg) top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 22px;
+    height: 24px;
+    position: absolute;
+    margin: 2px 0 0 -30px;
+}
+.sumGlossario::before{
+    background: url(../images/pv_sumglossario.svg) top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 22px;
+    height: 24px;
+    position: absolute;
+    margin: 2px 0 0 -30px;
+}
+.sumReferencias::before{
+    background: url(../images/pv_sumreferensiglas.svg) top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 22px;
+    height: 24px;
+    position: absolute;
+    margin: 2px 0 0 -30px;
+}
+.sumSiglas::before{
+    background: url(../images/pv_sumreferensiglas.svg) top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 22px;
+    height: 24px;
+    position: absolute;
+    margin: 2px 0 0 -30px;
+}
+.sumFinal {
+    margin: 0.5em 0 0.5em 22px;
+}
+
+.boxSumCor {
+    border-radius: 1em;
+    background: #EBF4E3;
+    padding: 0.5em;
+}
+
+.secSumario {
+    background: #000;
+    border-radius: 0.5em  0.5em  0.5em 0;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 1.6em;
+    color: #fff;
+    padding: 0.2em 0.5em;
+    width: max-content;
+    margin: 0 0 1em 0;
+}
+
+.secSumario::before{
+    background: url(../images/pv_projetoacao.svg) top left no-repeat;
+    background-size: 100%;
+    content: '';
+    position: absolute;
+    margin: -53px 0 0 -70px;
+    width: 117px;
+    height: 82px;
+}
 
 /*👉CONHEÇA SEU LIVRO👈*/
+.boxApresentConheLE {
+    background: linear-gradient(to bottom right, #D9ECF1 15%, #FBE7D9 50%, #D3CDE7 90%);
+}
+
+.secApres {
+    background: #000;
+    border-radius: 0 1em 1em 1em;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-size: 1.3em;
+    font-weight: bold;
+    width: max-content;
+    padding: 0.2em 0.5em;
+    margin-top: 1em;
+
+}
+
+.titConhecaLE {
+    background: #000;
+    border-radius: 1em 1em 1em 0em;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-size: 1em;
+    font-weight: bold;
+    width: max-content;
+    padding: 0.2em 0.5em;
+    margin: 0.2em 0 0.5em 35px;
+}
+
+.titConhecaLE .marcador {
+    background: #000;
+    border-radius: 6px 6px 0 6px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    position: absolute;
+    padding: 0px 0px 0 3px;
+    width: 28px;
+    height: 23px;
+    text-align: center;
+    margin: 0 0 0 -40px;
+}
+
+.boxApresentaIcones .titConhecaLE{
+    margin: 0.2em 0 0em 0px;
+}
+.boxApresentaIcones{
+    margin: 1em 0;
+}
+.boxApresentaIcones .box {
+    background: #FFFBDB;
+    border-radius:0 1em 1em 1em ;
+    padding: 1em ;
+
+}
+.boxApresentaIcones .textoicones{
+    margin: 0.2em 0 0.5em 0;
+}
+
 
 /*👉MANUAL GERAL👈*/
 .box_geral_mp {
@@ -2135,6 +2401,20 @@ p.li_livreItem::before {
     margin: 0 0 0 -39px;
 }
 
+.boxApresentConheLE .marcador2 {
+    background: #000;
+    border-radius: 6px 6px 0 6px;
+    color: #fff;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    position: static;
+    padding: 0 3px 4px 3px;
+    width: 35px;
+    height: 26px;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
 ul.li_item {
     list-style: disc;
     margin: 1em 0 1em 2em;
@@ -3367,6 +3647,7 @@ blockquote.li_citacaoItemMP::before {
     border-radius: 0 1em 1em 1em;
     padding: 0.5em 1em;
     width: max-content;
+    max-width: 100%;
 }
 
 .fundoCorLaranja {
@@ -3374,6 +3655,7 @@ blockquote.li_citacaoItemMP::before {
     border-radius: 0 1em 1em 1em;
     padding: 0.5em 1em;
     width: max-content;
+    max-width: 100%;
 }
 
 .fundoCorAmarelo {
@@ -3381,6 +3663,7 @@ blockquote.li_citacaoItemMP::before {
     border-radius: 0 1em 1em 1em;
     padding: 0.5em 1em;
     width: max-content;
+    max-width: 100%;
 }
 
 
