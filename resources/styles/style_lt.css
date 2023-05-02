@@ -1476,7 +1476,7 @@ ul.li_sumarioMP ul {
 .titSec2,
 .titSec3,
 .titSec4 {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .tit2,
@@ -1555,7 +1555,7 @@ ul.li_sumarioMP ul {
 .boxDica,
 .boxCuidado,
 .boxAtencao {
-    width: 300px;
+    width: max-content;
     max-width: 90%;
     margin: 1em 0;
 }
@@ -1565,7 +1565,7 @@ ul.li_sumarioMP ul {
     border-radius: 8px 8px 0 8px;
     font-family: 'Ubuntu';
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 600;
     padding: 0.2em 0.5em;
     width: max-content;
     max-width: 100%;
@@ -1730,7 +1730,7 @@ p.medidas{
     padding: 0.4em  0.7em;
     line-height: 1.3em;    
     margin: 0.5em 0;
-
+    width:auto;
     max-width: 100%;
     hyphens: none;
 }
@@ -1916,6 +1916,9 @@ ul.boxPalavra li:first-child::before {
     font-size: 1.05em;
 }
 
+.gloss dd {
+    padding: 0.2em 0 0 0;
+  }
 .citTit1 .vocabulario {
     border-bottom: 1px solid #FF6A3E;
     font-family: 'Merriweather', serif;
@@ -1967,7 +1970,7 @@ div.fichas {
     padding: 0.2em 0.5em;
     margin: 1em 0;
     min-width: 46px;
-    max-width: 100%;
+    max-width: 95%;
     text-align: center;
 }
 span.fichas {
@@ -1984,6 +1987,7 @@ span.fichas {
 .fichas .livre {
     margin: 0;
     text-align: center;
+    max-width: 100%;
 }
 
 .fichasMarcador {
@@ -2072,11 +2076,18 @@ div.balaoPonteira::after {
 }
 
 /* BOX MAPA */
+.boxMapa,
+.boxMapa2,
+.boxMapa3 {
+    margin: 2.2em 0;
+    display: table;
+}
 .boxMapa {
     margin: 2.2em 0;
     display: table;
 }
-.boxMapa .marcador{
+
+.boxMapa .marcador, .boxMapa3 .marcador, .boxMapa2 .marcador{
     position: absolute;
     background: #000;
     border-radius: 6px 6px 0 6px;
@@ -2104,7 +2115,11 @@ div.balaoPonteira::after {
     caption-side: top;
 }
 
-.boxMapa figure {
+
+
+.boxMapa figure,
+.boxMapa2 figure,
+.boxMapa3 figure {
     margin: 0.2em 0 0 0;
 
 }
@@ -2112,6 +2127,16 @@ div.balaoPonteira::after {
 .boxMapa figure img {
     border: 1px solid #000;
     border-radius: 0 1em 1em 1em;
+}
+
+.boxMapa2 figure img {
+    border: 1px solid #000;
+    border-radius: 0;
+}
+
+.boxMapa3 figure img {
+    border: 0px solid transparent;
+    border-radius: 0;
 }
 
 
@@ -2398,6 +2423,21 @@ p.li_livreItem::before {
     padding: 0 3px 4px 3px;
     width: 35px;
     height: 26px;
+    text-align: center;
+    margin: 0 0 0 -39px;
+}
+
+.marcadorNegativo {
+    background: #fff;
+    border-radius: 6px 6px 0 6px;
+    border: 2px solid #000;
+    color: #000;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    position: absolute;
+    padding: 0 3px 4px 3px;
+    width: 35px;
+    height: 30px;
     text-align: center;
     margin: 0 0 0 -39px;
 }
